@@ -6,7 +6,7 @@ const AuthLogIn = () => {
 
     return (
         <>
-            <div>Auth0</div>
+            <div>Auth</div>
             <h2>{isAuthenticated && user.nickname}</h2>
             <div>
                 {!isAuthenticated ?
